@@ -1,0 +1,16 @@
+com\baizitech\auth\configure\BaiziAuthorizationServerConfigure.class
+com\baizitech\auth\service\BaizitechUserDetailServiceImpl.class
+com\baizitech\auth\translator\BaizitechWebResponseExceptionTranslator.class
+com\baizitech\auth\properties\BaizitechAuthProperties.class
+com\baizitech\auth\handler\GlobalExceptionHandler.class
+com\baizitech\auth\manager\UserManager.class
+com\baizitech\auth\filter\ValidateCodeFilter.class
+com\baizitech\auth\BaizitechAuthApplication.class
+com\baizitech\auth\controller\SecurityController.class
+com\baizitech\auth\service\ValidateCodeService.class
+com\baizitech\auth\properties\BaizitechClientsProperties.class
+com\baizitech\auth\configure\BaizitechResourceServerConfigure.class
+com\baizitech\auth\mapper\UserMapper.class
+com\baizitech\auth\mapper\MenuMapper.class
+com\baizitech\auth\properties\BaizitechValidateCodeProperties.class
+com\baizitech\auth\configure\BaizitechSecurityConfigure.class

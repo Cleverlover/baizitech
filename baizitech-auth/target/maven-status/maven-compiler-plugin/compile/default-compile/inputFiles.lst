@@ -1,0 +1,13 @@
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\configure\BaiziAuthorizationServerConfigure.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\mapper\UserMapper.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\properties\BaizitechAuthProperties.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\manager\UserManager.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\configure\BaizitechSecurityConfigure.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\controller\SecurityController.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\properties\BaizitechClientsProperties.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\mapper\MenuMapper.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\translator\BaizitechWebResponseExceptionTranslator.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\BaizitechAuthApplication.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\handler\GlobalExceptionHandler.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\service\BaizitechUserDetailServiceImpl.java
+D:\IDEAWorkSpace\baizitech\baizitech-auth\src\main\java\com\baizitech\auth\configure\BaizitechResourceServerConfigure.java

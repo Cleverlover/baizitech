@@ -1,0 +1,5 @@
+com\baizitech\gateway\configure\BaizitechGateWayCorsConfigure.class
+com\baizitech\gateway\filter\BaizitechGatewayRequestFilter.class
+com\baizitech\gateway\BaizitechGatewayApplication.class
+com\baizitech\gateway\configure\BaizitechGatewaySecurityConfigure.class
+com\baizitech\gateway\filter\BaizitechGatewayErrorFilter.class

@@ -1,0 +1,40 @@
+server:
+  port: 8301
+
+spring:
+  application:
+    name: BZ-Gateway
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    registry-fetch-interval-seconds: 3
+    serviceUrl:
+      defaultZone: http://baizitech:123456@localhost:8001/register/eureka/
+
+zuul:
+  routes:
+    auth:
+      path: /auth/**
+      serviceId: BZ-Auth
+      sensitiveHeaders: "*"
+    system:
+      path: /system/**
+      serviceId: BZ-Server-System
+      sensitiveHeaders: "*"
+    test:
+      path: /test/**
+      serviceId: BZ-Server-Test
+      sensitiveHeaders: "*"
+  retryable: true
+  ignored-services: "*"
+  ribbon:
+    eager-load:
+      enabled: true
+ribbon:
+  ReadTimeout: 5000

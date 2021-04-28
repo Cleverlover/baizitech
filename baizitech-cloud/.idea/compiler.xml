@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="baizitech-gateway" />
+        <module name="baizitech-register" />
+        <module name="baizitech-auth" />
+        <module name="baizitech-server-test" />
+        <module name="baizitech-common" />
+        <module name="baizitech-server-system" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="baizitech-auth" options="-parameters" />
+      <module name="baizitech-common" options="-parameters" />
+      <module name="baizitech-gateway" options="-parameters" />
+      <module name="baizitech-register" options="-parameters" />
+      <module name="baizitech-server" options="-parameters" />
+      <module name="baizitech-server-system" options="-parameters" />
+      <module name="baizitech-server-test" options="-parameters" />
+    </option>
+  </component>
+</project>

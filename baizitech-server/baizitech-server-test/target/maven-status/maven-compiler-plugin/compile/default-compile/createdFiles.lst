@@ -1,0 +1,6 @@
+com\baizitech\server\test\service\fallback\HelloServiceFallback.class
+com\baizitech\server\test\configure\BaizitechServerTestResourceServerConfigure.class
+com\baizitech\server\test\controller\TestController.class
+com\baizitech\server\test\service\IHelloService.class
+com\baizitech\server\test\handler\GlobalExceptionHandler.class
+com\baizitech\server\test\BaizitechServerTestApplication.class

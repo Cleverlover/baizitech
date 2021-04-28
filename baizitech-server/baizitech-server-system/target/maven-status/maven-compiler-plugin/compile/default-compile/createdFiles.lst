@@ -1,0 +1,4 @@
+com\baizitech\server\system\BaizitechServerSystemApplication.class
+com\baizitech\server\system\configure\BaizitechServerSystemResourceServerConfigure.class
+com\baizitech\server\system\controller\TestController.class
+com\baizitech\server\system\handler\GlobalExceptionHandler.class

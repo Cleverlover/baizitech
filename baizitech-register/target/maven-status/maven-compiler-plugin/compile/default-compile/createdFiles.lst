@@ -1,0 +1,2 @@
+com\baizitech\register\BaizitechRegisterApplication.class
+com\baizitech\register\configure\BZRegisterWebSecurityConfigure.class
