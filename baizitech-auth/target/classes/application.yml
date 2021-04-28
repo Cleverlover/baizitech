@@ -6,8 +6,9 @@ spring:
     name: BZ-Auth
   redis:
     database: 0
-    host: 192.168.126.129
+    host: 192.168.31.128
     port: 6379
+    password: 123456
     lettuce:
       pool:
         min-idle: 8
@@ -28,9 +29,9 @@ spring:
       datasource:
         base:
           username: root
-          password: 19930703
+          password: 123456
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://localhost:3306/baizitech_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+          url: jdbc:mysql://192.168.31.128:3306/baizitech_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
 eureka:
   instance:
     #向Eureka 服务端发送心跳的间隔时间，单位为秒，用于服务续约。这里配置为20秒，即每隔20秒向baizitech-register发送心跳，表明当前服务没有宕机

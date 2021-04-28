@@ -2,6 +2,8 @@ package com.baizitech.server.system.configure;
 
 import com.baizitech.common.handler.BaizitechAccessDeniedHandler;
 import com.baizitech.common.handler.BaizitechAuthExceptionEntryPoint;
+import com.baizitech.server.system.properties.BaizitechServerSystemProperties;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -9,6 +11,9 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
 
+/**
+ * @author czw
+ */
 @Configuration
 @EnableResourceServer
 public class BaizitechServerSystemResourceServerConfigure extends ResourceServerConfigurerAdapter {
@@ -16,13 +21,18 @@ public class BaizitechServerSystemResourceServerConfigure extends ResourceServer
     private BaizitechAccessDeniedHandler accessDeniedHandler;
     @Autowired
     private BaizitechAuthExceptionEntryPoint exceptionEntryPoint;
+    @Autowired
+    private BaizitechServerSystemProperties properties;
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
+        String[] anonUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(properties.getAnonUrl(), ",");
+
         http.csrf().disable()
                 .requestMatchers().antMatchers("/**")
                 .and()
                 .authorizeRequests()
+                .antMatchers(anonUrls).permitAll()
                 .antMatchers("/**").authenticated();
     }
 
