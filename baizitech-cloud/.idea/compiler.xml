@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="baizitech-gateway" />
         <module name="baizitech-register" />
-        <module name="baizitech-auth" />
-        <module name="baizitech-server-test" />
         <module name="baizitech-common" />
+        <module name="baizitech-server-test" />
+        <module name="baizitech-monitor-admin" />
         <module name="baizitech-server-system" />
+        <module name="baizitech-auth" />
+        <module name="baizitech-gateway" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,8 @@
       <module name="baizitech-auth" options="-parameters" />
       <module name="baizitech-common" options="-parameters" />
       <module name="baizitech-gateway" options="-parameters" />
+      <module name="baizitech-monitor" options="-parameters" />
+      <module name="baizitech-monitor-admin" options="-parameters" />
       <module name="baizitech-register" options="-parameters" />
       <module name="baizitech-server" options="-parameters" />
       <module name="baizitech-server-system" options="-parameters" />

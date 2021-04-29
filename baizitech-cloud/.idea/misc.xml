@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/../baizitech-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/../baizitech-server/baizitech-server-system/pom.xml" />
         <option value="$PROJECT_DIR$/../baizitech-server/baizitech-server-test/pom.xml" />
+        <option value="$PROJECT_DIR$/../baizitech-monitor/baizitech-monitor-admin/pom.xml" />
       </list>
     </option>
   </component>

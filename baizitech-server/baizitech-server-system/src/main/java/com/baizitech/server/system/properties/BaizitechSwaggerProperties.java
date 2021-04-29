@@ -17,4 +17,8 @@ public class BaizitechSwaggerProperties {
     private String email;
     private String license;
     private String licenseUrl;
+
+    private String grantUrl;
+    private String name;
+    private String scope;
 }

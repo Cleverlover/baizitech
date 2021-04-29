@@ -13,6 +13,7 @@
         <module>../baizitech-auth</module>
         <module>../baizitech-gateway</module>
         <module>../baizitech-server</module>
+        <module>../baizitech-monitor</module>
     </modules>
     <packaging>pom</packaging>
 
