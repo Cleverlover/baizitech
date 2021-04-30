@@ -9,10 +9,10 @@
         <module name="baizitech-register" />
         <module name="baizitech-common" />
         <module name="baizitech-server-test" />
-        <module name="baizitech-monitor-admin" />
-        <module name="baizitech-server-system" />
-        <module name="baizitech-auth" />
         <module name="baizitech-gateway" />
+        <module name="baizitech-server-system" />
+        <module name="baizitech-monitor-admin" />
+        <module name="baizitech-auth" />
       </profile>
     </annotationProcessing>
   </component>
